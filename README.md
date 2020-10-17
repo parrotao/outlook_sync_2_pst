@@ -41,7 +41,7 @@ it is not recommnaded for no-IT users!!!
 it is for huge folders which keep email several years.
 
 1. Create PST file with name Mailbox_YYYY for example Mailbox_2020, Mailbox_2019
-2. Create same folder structure in the PST file
+2. Create **same folder structure** in **each** PST file
 3. Run this form
 4. Click "load Mailbox from Outlook"
 5. Choose the mail box  which you want to download from
