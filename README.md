@@ -3,9 +3,9 @@
 
 Hi all:
 
-   this tools is for download huge email from outlook to local PST file through outlook VBS.
+   This tools is for download huge email from outlook to local PST file through outlook VBS.
    
-   the orginal request is from my company to try to reduce O365 mail box size due to migrate to a new o365 org.
+   The orginal request is from my company to try to reduce O365 mail box size due to migrate to a new o365 org.
 
    I am not a programer, it is just a tool to make activity effective.
    
@@ -49,5 +49,9 @@ it is for huge folders which keep email several years.
 7. Choose the detail folder which need to download from
 8. Click "ONLY for Helpdesk"
 * it will download email to different PST based on differnet recieved year and keep this year email in the orginal mailbox.
+
+# Troubleshooting
+1. ensure VBS Addin is enabled
+2. enable Marco
 
 
