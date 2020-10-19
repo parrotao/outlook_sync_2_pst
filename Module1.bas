@@ -17,14 +17,18 @@ Sub MoveItems(ft1, ft2, tt1, tt2, t1, t2)
  
  Set myDestFolder = myNameSpace.Folders(tt1).Folders(tt2)
  
-
+UserForm1.Label9.Caption = "/" & myItems.Count
 
 For i = myItems.Count To 1 Step -1
  Set myItem = myItems(i)
-On Error Resume Next
+ 
+UserForm1.Label8.Caption = i
+'On Error Resume Next
  If Not (myItem.ReceivedTime > Now() - t1 And myItem.ReceivedTime < Now() - t2) Then
     UserForm1.Label1 = myItems.Count
     DoEvents
+    Debug.Print i
+    
  Else
     myItem.Move myDestFolder
     DoEvents
