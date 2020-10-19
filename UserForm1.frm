@@ -64,7 +64,7 @@ End Sub
 
 Private Sub CommandButton4_Click()
 
-If UserForm1.TextBox1.Value = "" Or UserForm1.ListBox2.Value = "" Or UserForm1.TextBox2.Value = "" Or UserForm1.ListBox3.Value = "" Or UserForm1.TextBox3.Value <= UserForm1.TextBox4.Value Then
+If UserForm1.TextBox1.Value = "" Or UserForm1.ListBox2.Value = "" Or UserForm1.TextBox2.Value = "" Or UserForm1.ListBox3.Value = "" Or Val(UserForm1.TextBox3.Value) <= Val(UserForm1.TextBox4.Value) Then
 
     MsgBox "input error"
 Else

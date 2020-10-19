@@ -24,6 +24,10 @@ parrotao@gmail.com
 4. import UserForm1.frm & Module1.bas
 5. Double click on UserForm1.frm & Press F5
 
+# Pre-Running
+Click to download all the email to cache
+
+
 # How to use
 1. Click "load Mailbox from Outlook"
 2. Choose the mail box  which you want to download from
